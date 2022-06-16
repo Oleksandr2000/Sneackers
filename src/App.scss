@@ -1,0 +1,85 @@
+.container {
+  padding-top: 50px;
+  width: 1080px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 60px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  hr{
+    margin: 20px 0;
+    opacity: 0.3;
+  }
+  .search{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .serchPanel{
+        position: relative;
+        display: flex;
+        input{
+          width: 250px;
+          height: 45px;
+          border: 1px solid #F3F3F3;
+          border-radius: 10px;
+          padding-left: 45px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #C4C4C4;
+        }
+        i{
+          position: absolute;
+          top: 16px;
+          left: 20px;
+          font-size: 14px; 
+        }
+        .clear-input{
+          position: absolute;
+          top: 13px;
+          right: 10px;
+        }
+    }
+  }
+  .listItem{
+      display: flex;
+      flex-flow: wrap;
+  }
+  .favoriteBlock{
+    height: 50vh;
+    .empty-favoriteList{
+      padding-top: 10%;
+      text-align: center;
+      img{
+        margin: 0 auto;
+      }
+      button {
+        margin: 0 auto;
+        height: 55px;
+        width: 325px;
+        background: #9DD558;
+        border: 1px #FFFFFF;
+        border-radius: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+    }
+  }
+}
